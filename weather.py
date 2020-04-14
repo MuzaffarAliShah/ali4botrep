@@ -11,7 +11,6 @@ import aiohttp
 
 from userbot.utils import admin_cmd
 
-from userbot.uniborgConfig import Config
 APPID="4d11c8fd6829da52f725e16f3e5f37e5"
 
 @borg.on(admin_cmd(pattern="weather (.*)"))
