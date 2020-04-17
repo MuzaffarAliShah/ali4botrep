@@ -17,7 +17,7 @@ from PIL import Image
 from io import BytesIO
 from userbot import bot, CMD_HELP
 from userbot.events import register
-QUOTES_API_TOKEN="26538bc6-3715-450b-8d30-50400ef226ea"
+QUOTES_API_TOKEN=26538bc6-3715-450b-8d30-50400ef226ea
 
 if 1 == 1:
     strings = {
