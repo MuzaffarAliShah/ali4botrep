@@ -11,7 +11,8 @@ import importlib.util
 import asyncio
 import random
 import importlib.util
-
+from userbot import CMD_HELP
+from userbot.events import register
 
 @register(outgoing=True, pattern="^.fexit (.*)")
 async def timer_blankx(e):
