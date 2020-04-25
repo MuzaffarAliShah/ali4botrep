@@ -7,14 +7,13 @@
 
 from telethon import events
 from datetime import datetime
-from userbot.utils import admin_cmd
 import importlib.util
 import asyncio
 import random
 import importlib.util
 
 
-@borg.on(admin_cmd(pattern=f"fexit", allow_sudo=True))
+@register(outgoing=True, pattern="^.fexit (.*)")
 async def timer_blankx(e):
  txt=e.text[7:] + '\n\n`Processing....` '
  j=1
